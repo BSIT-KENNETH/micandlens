@@ -411,72 +411,77 @@ margin-top: 0;
 .social-icon:hover {
     color: gray;
 }
-@media only screen and (max-width: 540px) {
-.navbar li{
-    margin-right: 5px;
-    font-size: small;
-}
-.navbar ul{
-margin-left: 0px;
-margin-right: 0;
-}
-.content{
-    top: 80%;
-}
-.section{
-    flex-direction: column;
-    align-items: center;
-}
-.section img {
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.p1{
-    width: 350px;
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 75px;
-    margin-top: 50px;
-    font-family: 'Nexa-Heavy';
-    font-weight: bold;
-    font-size: 13px;
-}
-.p2{
-    width: 350px;
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 60px;
-    margin-top: 50px;
-    font-family: 'Nexa-Heavy';
-    font-weight: bold;
-    font-size: 13px;
-}
-.p3{
-    width: 350px;
-    text-align: center;
-    margin-right: 50px;
-    margin-left: 60px;
-    margin-top: 50px;
-    font-family: 'Nexa-Heavy';
-    font-weight: bold;
-    font-size: 13px;
-}
-.V{
-   display: none;
-}
-.P{
-    display: none;
-}
-.M{
-    display: none;
-}
-.line1{
-display: none;
-}
-.line2{
-    display: none;
-}
-}
+@media screen and (max-width: 768px) {
+            .navbar {
+                width: 90%;
+                padding: 20px 0;
+            }
 
+            .logo {
+                width: 100px; /* Adjust logo size for smaller screens */
+            }
+
+            .navbar ul li {
+                margin: 0 10px; /* Adjust margin for smaller screens */
+            }
+
+            .content h1 {
+                font-size: 24px; /* Adjust font size for smaller screens */
+            }
+
+            .section {
+                flex-direction: column; /* Stack sections vertically on smaller screens */
+                align-items: center;
+                text-align: center;
+            }
+
+            .section img {
+                margin-left: 0; /* Center align images on smaller screens */
+            }
+
+            .line1, .line2 {
+                display: none; /* Hide horizontal lines on smaller screens */
+            }
+
+            .V, .P, .M {
+                font-size: 36px; /* Adjust icon size for smaller screens */
+                margin-left: 0; /* Center align icons on smaller screens */
+            }
+
+            .sectionf, .stack-top {
+                flex-direction: column; /* Stack feedback section vertically on smaller screens */
+                align-items: center;
+                text-align: center;
+            }
+
+            .fbg {
+                height: auto; /* Adjust height of feedback section for smaller screens */
+            }
+
+            .firstf, .secondf, .starl {
+                width: 80%; /* Adjust width of feedback cards for smaller screens */
+                margin-left: 0; /* Center feedback cards on smaller screens */
+            }
+
+            .hh1 {
+                margin-right: 0; /* Center align text on smaller screens */
+                margin-top: 100px; /* Adjust margin for smaller screens */
+                font-size: 24px; /* Adjust font size for smaller screens */
+            }
+
+            .footer {
+                flex-direction: column; /* Stack footer content vertically on smaller screens */
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-left, .footer-right {
+                margin: 20px 0; /* Adjust margin for smaller screens */
+            }
+
+            .footer-icon {
+                margin: 10px 0; /* Adjust margin for smaller screens */
+            }
+        }
 
 
