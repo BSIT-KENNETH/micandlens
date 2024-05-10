@@ -599,28 +599,28 @@ margin-top: 0;
 }
 @media only screen and (max-width: 540px){
     .banner{
-        width: 116%;
+        width: 100%;
     }
     .navbar{
-        width: 116%;
+        width: 100%;
     }
     .navbar li{
         margin-left: 30px;
     
     }
     .navbar ul{
-        margin-left: 100px;
+        margin-left: 40px;
     }
     .logok{
-        width: 116%;
+        width: 100%;
         
     }
     .content{
-        width: 116%;
+        width: 100%;
         top: 85%;
     }
     .content h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .section{
         display: flex;
@@ -629,19 +629,20 @@ margin-top: 0;
     }
     
     .section img{
-        margin-left: 75px;
-        height: 60%;
-        margin-top: 10px;
+        margin-left:0;
+        height: 50%;
+        margin-top: 20px;
+        width: 100%;
     }
     .hhh1{
         margin: 0;
-        margin-left: 200px;
+        margin-left: 170px;
         flex-direction: column;
         margin-top: 30px;
     }
     .hhh2{
         margin: 0;
-        margin-left: 170px;
+        margin-left: 140px;
         flex-direction: column;
         margin-top: 30px;
     }
@@ -649,7 +650,7 @@ margin-top: 0;
         width: 500px;
         text-align: center;
         margin-right: 50px;
-        margin-left: 60px;
+        margin-left: 30px;
         margin-top: 10px;
         font-family: 'Nexa-Heavy';
         font-weight: bold;
@@ -659,7 +660,7 @@ margin-top: 0;
         width: 500px;
         text-align: center;
         margin-right: 50px;
-        margin-left: 60px;
+        margin-left: 30px;
         margin-top: 10px;
         font-family: 'Nexa-Heavy';
         font-weight: bold;
@@ -669,7 +670,7 @@ margin-top: 0;
         width: 500px;
         text-align: center;
         margin-right: 50px;
-        margin-left: 60px;
+        margin-left: 30px;
         margin-top: 10px;
         font-family: 'Nexa-Heavy';
         font-weight: bold;
