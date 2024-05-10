@@ -4,6 +4,15 @@
           duration: 2000,
           reset: true     
    })
+function myMenuFunction(){
+  var menuBtn = document.getElementById("NAV");
+  if(menuBtn.className === "navbar"){
+    menuBtn.className += " responsive";
+  } else {
+    menuBtn.className = "navbar";
+  }
+}
+
   /* -- HOME -- */
   sr.reveal('.navbar',{delay: 300})
   sr.reveal('.logok',{delay: 300})
