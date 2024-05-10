@@ -50,6 +50,13 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
+.nav-menu-btn{
+    display: none;
+}
+.nav-menu-btn i{
+    font-size: 28px;
+    cursor: pointer;
+}
 .logok{
     width: 100%;
     position: absolute;
